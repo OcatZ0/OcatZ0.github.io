@@ -284,6 +284,12 @@
     letter-spacing: 0.04em;
   }
 
+  .section-note {
+    color: var(--text-dim);
+    font-style: italic;
+    margin: -2rem 0 2.5rem;
+  }
+
   .section-line {
     flex: 1;
     height: 1px;
@@ -855,6 +861,7 @@
     <li><a href="#skills">Arsenal</a></li>
     <li><a href="#education">History</a></li>
     <li><a href="#projects">Campaigns</a></li>
+    <li><a href="#operations">Operations</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="nav-toggle" id="navToggle" aria-label="Toggle menu">
@@ -897,9 +904,9 @@
   </div>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>I am Muhamad Nurfadli, a developer from Batam, Indonesia, currently pursuing my studies while building software that bridges the gap between complexity and usability.</p>
-      <p>My battlefield spans Android development, Windows desktop applications, web systems, and the occasional foray into creative tools like Photoshop and Premiere Pro. I fight on multiple fronts, and I enjoy it.</p>
-      <p>Still early in the campaign, but every project sharpens the blade.</p>
+      <p>I am Muhamad Nurfadli, a software developer from Batam, Indonesia, studying Software Engineering Technology (D4 TRPL) at Politeknik Negeri Batam.</p>
+      <p>On the front line I build and maintain production systems for an internet service provider: billing, network monitoring, field job management, and the CI/CD pipeline that ships them. My weapons of choice are ASP.NET Core and Laravel, backed by background services, mobile apps, and automation.</p>
+      <p>Every deployment is a campaign, and every bug is a battle won.</p>
     </div>
     <div class="about-facts reveal reveal-delay-1">
       <div class="fact-item">
@@ -912,11 +919,15 @@
       </div>
       <div class="fact-item">
         <span class="fact-label">Base</span>
-        <span class="fact-value">Batam, Indonesia 🇮🇩</span>
+        <span class="fact-value">Batam, Indonesia</span>
+      </div>
+      <div class="fact-item">
+        <span class="fact-label">Role</span>
+        <span class="fact-value">Software Developer</span>
       </div>
       <div class="fact-item">
         <span class="fact-label">Focus</span>
-        <span class="fact-value">Software Engineering (D4)</span>
+        <span class="fact-value">.NET and Laravel</span>
       </div>
       <div class="fact-item">
         <span class="fact-label">GitHub</span>
@@ -941,53 +952,67 @@
   </div>
   <div class="skills-grid">
     <div class="skill-card reveal">
-      <div class="skill-category">⚔ Languages</div>
+      <div class="skill-category">Languages</div>
       <div class="skill-tags">
         <span class="skill-tag">C#</span>
-        <span class="skill-tag">Kotlin</span>
         <span class="skill-tag">PHP</span>
-        <span class="skill-tag">HTML</span>
-        <span class="skill-tag">CSS</span>
         <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">Dart</span>
+        <span class="skill-tag">Kotlin</span>
+        <span class="skill-tag">Python</span>
       </div>
     </div>
     <div class="skill-card reveal reveal-delay-1">
-      <div class="skill-category">🛡 Frameworks & Tools</div>
+      <div class="skill-category">Backend</div>
       <div class="skill-tags">
         <span class="skill-tag">.NET</span>
         <span class="skill-tag">ASP.NET Core</span>
-        <span class="skill-tag">MVC</span>
-        <span class="skill-tag">RESTful API</span>
+        <span class="skill-tag">Laravel</span>
+        <span class="skill-tag">FastAPI</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">REST API</span>
       </div>
     </div>
     <div class="skill-card reveal reveal-delay-2">
-      <div class="skill-category">🗄 Databases</div>
+      <div class="skill-category">Frontend</div>
       <div class="skill-tags">
-        <span class="skill-tag">MS SQL Server</span>
-        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Bootstrap</span>
+        <span class="skill-tag">Blade</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
       </div>
     </div>
     <div class="skill-card reveal reveal-delay-3">
-      <div class="skill-category">🎨 Creative</div>
+      <div class="skill-category">Mobile</div>
       <div class="skill-tags">
-        <span class="skill-tag">Adobe Photoshop</span>
-        <span class="skill-tag">Adobe Premiere Pro</span>
+        <span class="skill-tag">Flutter</span>
+        <span class="skill-tag">Kotlin</span>
+        <span class="skill-tag">Android</span>
       </div>
     </div>
     <div class="skill-card reveal">
-      <div class="skill-category">📱 Platforms</div>
+      <div class="skill-category">Databases</div>
       <div class="skill-tags">
-        <span class="skill-tag">Android (Mobile)</span>
-        <span class="skill-tag">Windows Desktop</span>
-        <span class="skill-tag">Web</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">SQL Server</span>
+        <span class="skill-tag">MySQL</span>
       </div>
     </div>
     <div class="skill-card reveal reveal-delay-1">
-      <div class="skill-category">🔧 Currently Learning</div>
+      <div class="skill-category">DevOps and Networking</div>
       <div class="skill-tags">
-        <span class="skill-tag">Android Dev</span>
-        <span class="skill-tag">Windows Dev</span>
-        <span class="skill-tag">Web Dev</span>
+        <span class="skill-tag">GitHub Actions</span>
+        <span class="skill-tag">Windows Server</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">MikroTik</span>
+      </div>
+    </div>
+    <div class="skill-card reveal reveal-delay-2">
+      <div class="skill-category">Creative</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Adobe Photoshop</span>
+        <span class="skill-tag">Adobe Premiere Pro</span>
       </div>
     </div>
   </div>
@@ -1028,46 +1053,134 @@
     <div class="section-line"></div>
   </div>
   <div class="projects-grid">
-    <a href="https://github.com/OcatZ0/SBI-WiringSystem" target="_blank" class="project-card reveal">
+    <a href="https://github.com/OcatZ0/MareNostrum-Kabocha" target="_blank" class="project-card reveal">
       <div class="project-number">01</div>
+      <div class="project-name">Mare Nostrum</div>
+      <div class="project-desc">Hackathon project at Politeknik Negeri Batam (Team Kabocha). Cross-border logistics tracking from Batam warehouses to Singapore berths: traffic-aware departure scheduling, live truck GPS with geofence arrival detection, vessel tracking via AIS, and CO2 emissions per trip.</div>
+      <div class="project-tech">
+        <span class="tech-badge">Laravel 12</span>
+        <span class="tech-badge">React 19</span>
+        <span class="tech-badge">PostgreSQL</span>
+        <span class="tech-badge">TomTom API</span>
+      </div>
+    </a>
+    <a href="https://github.com/OcatZ0/SBI-WiringSystem" target="_blank" class="project-card reveal reveal-delay-1">
+      <div class="project-number">02</div>
       <div class="project-name">SBI-WiringSystem</div>
-      <div class="project-desc">Shop floor tracking system for wire harness manufacturing. Workers scan barcodes to advance items through a 3-stage production pipeline. Supports Excel import and daily report export.</div>
+      <div class="project-desc">Shop floor tracking for wire harness manufacturing. Barcode scanning moves items through Material Handling, Operator, and Delivery stages, with Excel plan import and Excel/PDF daily reports.</div>
       <div class="project-tech">
         <span class="tech-badge">C#</span>
         <span class="tech-badge">.NET 8</span>
-        <span class="tech-badge">MS SQL Server</span>
+        <span class="tech-badge">SQL Server</span>
       </div>
     </a>
+    <a href="https://github.com/OcatZ0/oneforall" target="_blank" class="project-card reveal reveal-delay-2">
+      <div class="project-number">03</div>
+      <div class="project-name">oneforall</div>
+      <div class="project-desc">Security monitoring dashboard for Wazuh agents, with role-based access for administrators and customers.</div>
+      <div class="project-tech">
+        <span class="tech-badge">Laravel</span>
+        <span class="tech-badge">Wazuh API</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<div class="separator"></div>
+
+<!-- CLIENT PROJECTS -->
+<section id="operations">
+  <div class="section-header reveal">
+    <span class="section-num">05</span>
+    <h2 class="section-title">Classified Operations</h2>
+    <div class="section-line"></div>
+  </div>
+  <p class="section-note reveal">Most of these are private client projects, so the source code is only linked where it is public.</p>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-number">01</div>
+      <div class="project-name">E-Billing Platform</div>
+      <div class="project-desc">Multi-tenant billing for ISPs: invoicing, unique payment codes, a central admin console, scheduled background jobs, and a Baileys-based WhatsApp gateway for customer notifications.</div>
+      <div class="project-tech">
+        <span class="tech-badge">ASP.NET Core</span>
+        <span class="tech-badge">PostgreSQL</span>
+        <span class="tech-badge">Node.js</span>
+      </div>
+    </div>
     <div class="project-card reveal reveal-delay-1">
       <div class="project-number">02</div>
-      <div class="project-name">MonitoringMikrotik</div>
-      <div class="project-desc">Private client project. ASP.NET Core MVC application for managing and monitoring Mikrotik routers, interface traffic, SFP signal, PPPoE sessions, and metro links.</div>
+      <div class="project-name">Network Monitoring</div>
+      <div class="project-desc">Monitoring for Mikrotik routers, interface traffic, SFP signal, PPPoE sessions, and metro links, backed by polling services and automated config backups.</div>
       <div class="project-tech">
-        <span class="tech-badge">C#</span>
         <span class="tech-badge">ASP.NET Core</span>
+        <span class="tech-badge">PostgreSQL</span>
+        <span class="tech-badge">Windows Services</span>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-number">03</div>
+      <div class="project-name">Job Order System</div>
+      <div class="project-desc">Field job management with phases, photo documentation, technician scheduling, and face recognition attendance with liveness detection.</div>
+      <div class="project-tech">
+        <span class="tech-badge">Laravel</span>
+        <span class="tech-badge">FastAPI</span>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-3">
+      <div class="project-number">04</div>
+      <div class="project-name">MCP Servers</div>
+      <div class="project-desc">Read-only Model Context Protocol servers that let managers query billing, monitoring, and job data through Claude.</div>
+      <div class="project-tech">
+        <span class="tech-badge">ASP.NET Core</span>
+        <span class="tech-badge">Laravel</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-number">05</div>
+      <div class="project-name">CI/CD Pipeline</div>
+      <div class="project-desc">Self-hosted deploy pipeline for ASP.NET, Laravel, and Windows Service projects, with a dashboard for deploy history, redeploy, rollback, and health checks.</div>
+      <div class="project-tech">
+        <span class="tech-badge">GitHub Actions</span>
+        <span class="tech-badge">PowerShell</span>
+        <span class="tech-badge">ASP.NET Core</span>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-number">06</div>
+      <div class="project-name">Financial Management</div>
+      <div class="project-desc">Income and expense tracking with region-scoped access, built for two companies.</div>
+      <div class="project-tech">
+        <span class="tech-badge">ASP.NET Core</span>
+        <span class="tech-badge">Laravel</span>
         <span class="tech-badge">PostgreSQL</span>
       </div>
     </div>
-    <a href="https://github.com/OcatZ0/AjuinAja" target="_blank" class="project-card reveal reveal-delay-2">
-      <div class="project-number">03</div>
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-number">07</div>
+      <div class="project-name">Attendance App</div>
+      <div class="project-desc">Android attendance app for company employees.</div>
+      <div class="project-tech">
+        <span class="tech-badge">Flutter</span>
+      </div>
+    </div>
+    <a href="https://github.com/OcatZ0/AjuinAja" target="_blank" class="project-card reveal reveal-delay-3">
+      <div class="project-number">08</div>
       <div class="project-name">AjuinAja</div>
-      <div class="project-desc">PHP-based web app for online document & letter submission at a local Indonesian government administrative unit (Kelurahan). Simplifying bureaucracy, one form at a time.</div>
+      <div class="project-desc">Online letter service for a Kelurahan (village office). Residents submit requests for SKTM, domicile, business, income, and event permit letters, then track their status. Staff verify each request and print the official letter as a PDF.</div>
       <div class="project-tech">
         <span class="tech-badge">PHP</span>
         <span class="tech-badge">MySQL</span>
-        <span class="tech-badge">Web</span>
+        <span class="tech-badge">Dompdf</span>
       </div>
     </a>
-    <a href="https://github.com/OcatZ0/TiketixAPI" target="_blank" class="project-card reveal reveal-delay-3">
-      <div class="project-number">04</div>
-      <div class="project-name">TiketixAPI</div>
-      <div class="project-desc">A RESTful API built with ASP.NET Core for managing theater schedules, movies, and seat reservations. Clean architecture with full CRUD support.</div>
+    <div class="project-card reveal">
+      <div class="project-number">09</div>
+      <div class="project-name">SmartTrip Batam</div>
+      <div class="project-desc">Campus project: holiday itinerary recommendations based on user preferences.</div>
       <div class="project-tech">
-        <span class="tech-badge">C#</span>
-        <span class="tech-badge">ASP.NET Core</span>
-        <span class="tech-badge">REST API</span>
+        <span class="tech-badge">Flutter</span>
       </div>
-    </a>
+    </div>
   </div>
 </section>
 
@@ -1105,7 +1218,7 @@
     </a>
   </div>
 
-  <p class="footer-copy">© 2025 Muhamad Nurfadli · Crafted with <span>♦</span> in Batam</p>
+  <p class="footer-copy">© 2026 Muhamad Nurfadli · Crafted with <span>♦</span> in Batam</p>
 </footer>
 
 <script>
