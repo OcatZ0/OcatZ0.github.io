@@ -439,12 +439,12 @@
   .skill-tag:hover { border-color: var(--gold-dim); color: var(--gold); }
 
   /* ───────────── EDUCATION ───────────── */
-  #education .timeline {
+  .timeline {
     position: relative;
     padding-left: 2rem;
   }
 
-  #education .timeline::before {
+  .timeline::before {
     content: '';
     position: absolute;
     left: 0; top: 0; bottom: 0;
@@ -488,6 +488,13 @@
     font-style: italic;
     font-size: 0.95rem;
     margin-bottom: 0.4rem;
+  }
+
+  .edu-desc {
+    color: var(--text);
+    font-size: 0.95rem;
+    margin-top: 0.8rem;
+    max-width: 720px;
   }
 
   .edu-level {
@@ -927,6 +934,7 @@
   <ul class="nav-links" id="navLinks">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Arsenal</a></li>
+    <li><a href="#experience">Service</a></li>
     <li><a href="#education">History</a></li>
     <li><a href="#projects">Campaigns</a></li>
     <li><a href="#operations">Operations</a></li>
@@ -991,7 +999,7 @@
       </div>
       <div class="fact-item">
         <span class="fact-label">Role</span>
-        <span class="fact-value">Software Developer</span>
+        <span class="fact-value">Junior Software Engineer</span>
       </div>
       <div class="fact-item">
         <span class="fact-label">Focus</span>
@@ -1102,10 +1110,37 @@
 
 <div class="separator"></div>
 
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-header reveal">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Service Record</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="timeline">
+    <div class="edu-item reveal">
+      <div class="edu-year">May 2025 - Present</div>
+      <div class="edu-institution">Junior Software Engineer</div>
+      <div class="edu-major">PT. Filltech Antar Nusa, Batam</div>
+      <div class="edu-level">Full-time, on-site</div>
+      <p class="edu-desc">Builds and maintains the company's production systems: multi-tenant ISP billing, network monitoring services, field job management with mobile apps, MCP servers for Claude, and the self-hosted CI/CD pipeline. Also covers programming support and the help desk.</p>
+    </div>
+    <div class="edu-item reveal reveal-delay-1">
+      <div class="edu-year">Jul 2024 - Dec 2024</div>
+      <div class="edu-institution">Network Technician</div>
+      <div class="edu-major">PT Skynet Indonesia Madani, Batam</div>
+      <div class="edu-level">Internship, on-site</div>
+      <p class="edu-desc">Internship in network support and telecommunications.</p>
+    </div>
+  </div>
+</section>
+
+<div class="separator"></div>
+
 <!-- EDUCATION -->
 <section id="education">
   <div class="section-header reveal">
-    <span class="section-num">03</span>
+    <span class="section-num">04</span>
     <h2 class="section-title">The History</h2>
     <div class="section-line"></div>
   </div>
@@ -1130,7 +1165,7 @@
 <!-- PROJECTS -->
 <section id="projects">
   <div class="section-header reveal">
-    <span class="section-num">04</span>
+    <span class="section-num">05</span>
     <h2 class="section-title">The Campaigns</h2>
     <div class="section-line"></div>
   </div>
@@ -1177,7 +1212,7 @@
 <!-- CLIENT PROJECTS -->
 <section id="operations">
   <div class="section-header reveal">
-    <span class="section-num">05</span>
+    <span class="section-num">06</span>
     <h2 class="section-title">Classified Operations</h2>
     <div class="section-line"></div>
   </div>
